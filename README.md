@@ -25,12 +25,12 @@ Get the mini server app:
 Assuming [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/) is installed.
 
     $ mkvirtualenv microquery
-    $ pip install -r requirements.txt
+    (microquery)$ pip install -r requirements.txt
 
 Change `BASE_URL = 'http://insert.here'` in `app.py` to some catalog URL first, then
 start the server:
 
-    $ python app.py
+    (microquery)$ python app.py
     * Running on http://0.0.0.0:5000/
     * Restarting with reloader
     ...
