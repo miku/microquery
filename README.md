@@ -27,7 +27,8 @@ Assuming [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/
     $ mkvirtualenv microquery
     $ pip install -r requirements.txt
 
-Start the server:
+Change `BASE_URL = 'http://insert.here'` in `app.py` to some catalog URL first, then
+start the server:
 
     $ python app.py
     * Running on http://0.0.0.0:5000/
@@ -38,3 +39,8 @@ Go to http://localhost:5000, this interface goes directly to SOLR and
 gets only the availability from vufind, using the AJAX handler.
 
 Append `debug=1` to see a JSON-ish output.
+
+Screenshots
+-----------
+
+http://imgur.com/a/FdE3K
