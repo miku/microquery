@@ -1,0 +1,61 @@
+/*
+*
+* Lemonade v1.1
+* Copyright 2013, Joe Richardson
+* lemonade.im
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*
+*/
+
+/* Set the width of the grid */
+.frame {
+  width: 100%;
+  margin: 0px auto;
+}
+
+/* For the grid example */
+.box {
+  text-align: center;
+  font: 1em "Helvetica Neue", Helvetica, Arial;
+  font-weight:800;
+  background:#ffc500;
+  color:#fff;
+  padding: 15px 0px 15px 0px;
+}
+
+.box:hover {
+  color:#fff;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.availability-1 {
+	color: green;
+}
+
+.availability-2 {
+	color: red;
+}
+
+.availability-3 {
+	color: yellow;
+}
+
+.box {
+	background: #fff380;
+	padding: 5px 0 5px 0;
+	margin-bottom: 2px;
+}
+
+input[type=text] {
+	font-size: 1em;
+}
+
+.item {
+	padding: 5px 0 5px 0;
+	background: #efefef;
+	border-bottom: solid thin #afafaf;
+}
