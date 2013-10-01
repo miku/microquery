@@ -35,7 +35,7 @@ start the server:
     * Restarting with reloader
     ...
 
-Go to http://localhost:5000, this interface goes directly to SOLR and
+Go to [http://localhost:5000](http://localhost:5000), this interface goes directly to SOLR and
 gets only the availability from vufind, using the AJAX handler.
 
 Append `debug=1` to see a JSON-ish output.
