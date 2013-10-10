@@ -3,7 +3,7 @@ README
 
 Copy a live solr first.
 
-    $ cd && mkdir -p tmp & cd tmp
+    $ cd && mkdir -p tmp && cd tmp
     $ scp -r me@server:/usr/local/vufind/solr .
 
 Start solr (using a [custom solr startup script](https://gist.github.com/miku/6775310) here):
